@@ -1,4 +1,4 @@
-# r2c-wallet-validator
+# evm-solana-bit-cosmos-wallet-validator
 
 A simple utility to validate a cryptocurrency wallet address.
 
@@ -7,15 +7,15 @@ A simple utility to validate a cryptocurrency wallet address.
 To install the package, run:
 
 ```sh
-npm install r2c-wallet-validator
+npm install evm-solana-bit-cosmos-wallet-validator
 ```
 
 ## Usage
 
-Import the necessary functions and types from `r2c-wallet-validator` and use them in your code.
+Import the necessary functions and types from `evm-solana-bit-cosmos-wallet-validator` and use them in your code.
 
 ```typescript
-import { isWalletValid } from "r2c-wallet-validator";
+import { isWalletValid } from "evm-solana-bit-cosmos-wallet-validator";
 
 const result = isWalletValid("your_wallet_address_here");
 
@@ -30,7 +30,7 @@ if (!result.valid) {
 ### Example
 
 ```typescript
-import { isWalletValid, ValidationErrorMessage, WalletType } from "r2c-wallet-validator";
+import { isWalletValid, ValidationErrorMessage, WalletType } from "evm-solana-bit-cosmos-wallet-validator";
 
 const addresses = [
   "0x742d35Cc6634C0532925a3b844Bc454e4438f44e", // EVM
